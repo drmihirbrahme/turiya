@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1118">
+  <meta name="description" content="Turiya is an original compact AI agent research platform. Explore the architecture, verified milestones, and downloadable engineering preview.">
+  <title>Turiya — intelligence within constraints</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <header class="nav wrap">
+    <a class="brand" href="#top" aria-label="Turiya home"><span class="brandmark">◈</span> TURIYA<span class="branddot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#architecture">Architecture</a>
+      <a href="#progress">Progress</a>
+      <a href="#research">Research</a>
+    </nav>
+    <a class="nav-link" href="https://github.com/drmihirbrahme/turiya">View source <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="headline">
+      <p class="eyebrow"><span class="signal"></span> Open research · Engineering preview</p>
+      <h1 id="headline">Intelligence<br><em>within constraints.</em></h1>
+      <p class="lead">Turiya explores how a compact language architecture, persistent knowledge, audited tools, and a small decision controller can solve harder tasks within a local compute budget.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/drmihirbrahme/turiya#current-release">Explore the research preview <span aria-hidden="true">↗</span></a>
+        <a class="button secondary" href="https://github.com/drmihirbrahme/turiya">Read the code <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="hero-note">A 5.71M-parameter synthetic smoke checkpoint is prepared for Hugging Face publication. Trained 4B weights are not available.</p>
+      <div class="metrics" aria-label="Project facts">
+        <div><strong>4.075B</strong><span>proposed architecture parameters</span></div>
+        <div><strong>5.71M</strong><span>preview checkpoint parameters</span></div>
+        <div><strong>8 GB</strong><span>future Mac inference target</span></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="architecture" aria-labelledby="architecture-heading">
+      <div class="section-heading"><span class="index">01 / SYSTEM</span><h2 id="architecture-heading">A language core.<br>A measured system.</h2><p>The model, its tools, and its decision policy are assessed separately so each claimed gain has a clear source.</p></div>
+      <div class="cards">
+        <article><span class="icon">01</span><h3>Original text architecture</h3><p>Causal state-mixing blocks and grouped-query attention define a 4.075B-parameter research configuration. Only the tiny structural checkpoint has been trained.</p></article>
+        <article><span class="icon">02</span><h3>Audited tool harness</h3><p>Local memory and retrieval, declarative skills, optional web search, and bounded tool calls supply context and verifiable actions.</p></article>
+        <article><span class="icon">03</span><h3>Decision dynamics</h3><p>A separate, paper-inspired stochastic controller is being tested against deterministic policies under matched task and energy budgets.</p></article>
+      </div>
+    </section>
+
+    <section class="section wrap progress" id="progress" aria-labelledby="progress-heading">
+      <div class="section-heading"><span class="index">02 / EVIDENCE</span><h2 id="progress-heading">What is working today.</h2><p>A research release should make its evidence visible, including the work still ahead.</p></div>
+      <div class="status-grid">
+        <div class="status"><span class="status-mark done">✓</span><div><h3>Architecture smoke test</h3><p>Tiny forward and backward pass, short synthetic training run, SafeTensors export and reload.</p></div><span class="badge">Verified</span></div>
+        <div class="status"><span class="status-mark done">✓</span><div><h3>Modular agent harness</h3><p>Local memory, retrieval, and validated tool-routing paths exercised with mocks.</p></div><span class="badge">Prototype</span></div>
+        <div class="status"><span class="status-mark future">→</span><div><h3>Capable 4B model</h3><p>Large-scale training, independent evaluation, and weight release remain future milestones.</p></div><span class="badge muted">Planned</span></div>
+        <div class="status"><span class="status-mark future">→</span><div><h3>8 GB Mac results</h3><p>Quantized quality, peak unified memory, latency, and joules per completed task remain unmeasured.</p></div><span class="badge muted">Planned</span></div>
+      </div>
+    </section>
+
+    <section class="section wrap research" id="research" aria-labelledby="research-heading">
+      <span class="index">03 / HYPOTHESIS</span>
+      <h2 id="research-heading">Can dynamics improve decisions?</h2>
+      <p>The project investigates whether finite-time stochastic dynamics can improve tool selection and task completion beyond equally sized deterministic controllers. The motivating thermodynamic computing paper demonstrated a different system; translating its principle into a text agent is an open experiment.</p>
+      <a class="text-link" href="https://arxiv.org/abs/2506.15121">Read the motivating research paper <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="wrap"><a class="brand" href="#top"><span class="brandmark">◈</span> TURIYA<span class="branddot">.</span></a><span>Research preview · Claims evolve with measured results.</span><a href="https://github.com/drmihirbrahme/turiya">Source code ↗</a></footer>
+</body>
+</html>
